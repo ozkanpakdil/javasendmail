@@ -47,7 +47,7 @@ public class SendEmail {
 	}
 
 	String mailto = cmd.getOptionValue(to.getOpt(), "root@localhost");
-	String fromMail = cmd.getOptionValue(from.getOpt(), "Özkan Pakdil");
+	String fromMail = cmd.getOptionValue(from.getOpt(), "root@localhost");
 	String host = cmd.getOptionValue(smtp.getOpt(), "localhost");
 	String subjectTxt = "This is the Subject Line!";
 	String text = "This is actual message";
